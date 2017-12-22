@@ -15,7 +15,7 @@ import { MockData } from './mock-data/mock.data';
 import { BrowserModule } from '@angular/platform-browser';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule,MatSidenavModule,MatMenuModule,
-  MatToolbarModule,MatCheckboxModule,MatSelectModule, MatListModule,MatButtonToggleModule,MatTableModule
+  MatToolbarModule,MatCheckboxModule,MatSelectModule, MatListModule,MatButtonToggleModule,MatTableModule,MatCardModule
 } from '@angular/material';
 
 import { AppComponent } from './app.component';
@@ -54,7 +54,8 @@ import { SelectionScreenComponent } from './home-screen/selection-screen/selecti
     MatSelectModule,
     MatListModule,
     MatButtonToggleModule,
-    MatTableModule
+    MatTableModule,
+    MatCardModule
   ],
   exports: [],
   providers: [VehicleService],

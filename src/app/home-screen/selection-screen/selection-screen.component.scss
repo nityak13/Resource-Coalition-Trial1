@@ -1,0 +1,15 @@
+.ui-selection{
+    width : 400px;
+    .ui-row {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 2px;
+        .ui-column {
+            div:first-child {text-transform: uppercase;}
+            div:last-child {
+                margin-top: 4px;
+                color: gray;
+                            }
+                    }
+            } 
+}
